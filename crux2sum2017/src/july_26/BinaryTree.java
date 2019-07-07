@@ -603,35 +603,81 @@ public class BinaryTree {
 //
 //    }
 
-    public void kaway(int data, int k) {
-        HeapMover mover = new HeapMover();
-        mover.k = k;
-        kaway(root,false, data,mover);
+//    public void kaway(int data, int k) {
+//        HeapMover mover = new HeapMover();
+//        mover.k = k;
+//        kaway(root, false, data, mover);
+//    }
+//
+//    private class HeapMover {
+//        boolean found;
+//        boolean isright;
+//        int k;
+//    }
+//
+//    private void kaway(Node root, Boolean isleft, int data, HeapMover mover) {
+//        if (root.data == data) {
+//            mover.found = true;
+//            return;
+//        }
+//
+//        if (!mover.found) kaway(root.left, true, data, mover);
+//        if (!mover.found) kaway(root.right, false, data, mover);
+//        if (root.data == data) getNodes(root, mover.k);
+//        else {
+//            if (mover.isright) getNodes(root.right, mover.k - 1);
+//            else getNodes(root.left, mover.k - 1);
+//        }
+//        if (isleft) mover.isright = true;
+//        else mover.isright = false;
+//        mover.k -= 1;
+//    }
+
+    public void sameSubtree(Node node, int k) {
+        if (node == null) return;
+
+        if (k == 0) System.out.println(node.data);
+        sameSubtree(node.left, k - 1);
+        sameSubtree(node.right, k - 1);
     }
 
-    private class HeapMover {
+    public class HeapMover {
         boolean found;
-        boolean isright;
+        boolean inRight;
         int k;
     }
 
-    private void kaway(Node root, Boolean isleft, int data, HeapMover mover) {
-        if (root.data == data) {
-            mover.found = true;
+    private void kaway(int data, Node node, int k, HeapMover m, boolean ilc) {
+        if (node == null) return;
+        if (node.data == data) {
+            m.found = true;
+            if (ilc) m.inRight = true;
+            else m.inRight = false;
+            sameSubtree(node, k);
             return;
         }
 
-        if (!mover.found) kaway(root.left, true, data, mover);
-        if (!mover.found) kaway(root.right, false, data, mover);
-        if(root.data == data) getNodes(root, mover.k);
-        else {
-            if(mover.isright)getNodes(root.right,mover.k - 1);
-            else getNodes(root.left,mover.k - 1);
+        if (!m.found) kaway(data, node.left, k, m, true);
+        if (!m.found) kaway(data, node.right, k, m, false);
+        if (m.found) {
+            m.k--;
+            if (m.k == 0) System.out.println(node.data);
+            else {
+                if (m.inRight) sameSubtree(node.right, m.k - 1);
+                else sameSubtree(node.left, m.k - 1);
+            }
+
+            if (ilc) m.inRight = true;
+            else m.inRight = false;
         }
-        if (isleft) mover.isright = true;
-        else mover.isright  = false;
-        mover.k -= 1;
+
+
     }
 
+    public void kaway(int data, int k) {
+        HeapMover m = new HeapMover();
+        m.k = k;
+        kaway(data, root, k, m, false);
+    }
 
 }

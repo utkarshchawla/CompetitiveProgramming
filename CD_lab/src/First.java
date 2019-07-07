@@ -7,9 +7,11 @@ public class First {
     public static HashMap<Character, ArrayList<String>> grammar = new HashMap<>();
 
     public static void main(String[] args) {
-        grammar.put('A', new ArrayList<>(Arrays.asList("BC", "$")));
-        grammar.put('B', new ArrayList<>(Arrays.asList("dC")));
-        grammar.put('C', new ArrayList<>(Arrays.asList("$")));
+        grammar.put('E', new ArrayList<>(Arrays.asList("TG")));
+        grammar.put('G', new ArrayList<>(Arrays.asList("+TG","$")));
+        grammar.put('T', new ArrayList<>(Arrays.asList("FH")));
+        grammar.put('H',new ArrayList<>(Arrays.asList("*FH","$")));
+        grammar.put('F',new ArrayList<>(Arrays.asList("(E)","i")));
         HashMap<Character, String> answer = new HashMap<>();
         for (char c : grammar.keySet()) {
             for (String s : grammar.get(c)) {
@@ -36,7 +38,7 @@ public class First {
     }
 
     private static boolean hasEpsilon(Character ch) {
-        if ((ch <= 'z' && ch >= 'a') || ch == '$') return false;
+        if ((ch <= 'z' && ch >= 'a') || ch == '$' || ch == '+'|| ch == '*' || ch == '(' || ch == ')') return false;
         for (String s : grammar.get(ch)) {
             for (int i = 0; i < s.length(); i++) if (s.charAt(i) == '$') return true;
         }
@@ -44,7 +46,7 @@ public class First {
     }
 
     private static String single(Character ch) {
-        if ((ch <= 'z' && ch >= 'a') || ch == '$') return ch + "";
+        if ((ch <= 'z' && ch >= 'a') || ch == '$' || ch == '+'|| ch == '*' || ch == '(' || ch == ')') return ch + "";
         StringBuilder sb = new StringBuilder();
         for (String s : grammar.get(ch)) {
             sb.append(multi(s));

@@ -17,7 +17,17 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="follow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/follow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,14 +41,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/comments.java" />
         <option value="$PROJECT_DIR$/src/CountComments.java" />
-        <option value="$PROJECT_DIR$/src/lexo.java" />
-        <option value="$PROJECT_DIR$/src/First.java" />
         <option value="$PROJECT_DIR$/src/tokesn.java" />
         <option value="$PROJECT_DIR$/src/tokens.java" />
         <option value="$PROJECT_DIR$/src/nfa_dfa.java" />
         <option value="$PROJECT_DIR$/src/nfaToDfa.java" />
         <option value="$PROJECT_DIR$/src/validIdentifier.java" />
         <option value="$PROJECT_DIR$/src/follow.java" />
+        <option value="$PROJECT_DIR$/src/lexo.java" />
+        <option value="$PROJECT_DIR$/src/First.java" />
       </list>
     </option>
   </component>
@@ -53,7 +63,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,7 +80,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -94,8 +104,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.follow">
-    <configuration name="CountComments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountComments" />
+    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="First" />
       <module name="CD_lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -107,13 +117,13 @@
       <module name="CD_lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="nfaToDfa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nfaToDfa" />
+    <configuration name="lexo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lexo" />
       <module name="CD_lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="tokens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tokens" />
+    <configuration name="nfaToDfa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nfaToDfa" />
       <module name="CD_lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -161,19 +171,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CountComments" />
       <item itemvalue="Application.nfaToDfa" />
-      <item itemvalue="Application.tokens" />
       <item itemvalue="Application.validIdentifier" />
       <item itemvalue="Application.follow" />
+      <item itemvalue="Application.lexo" />
+      <item itemvalue="Application.First" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.follow" />
+        <item itemvalue="Application.First" />
+        <item itemvalue="Application.lexo" />
         <item itemvalue="Application.validIdentifier" />
         <item itemvalue="Application.nfaToDfa" />
-        <item itemvalue="Application.tokens" />
-        <item itemvalue="Application.CountComments" />
       </list>
     </recent_temporary>
   </component>
@@ -190,11 +200,13 @@
       <workItem from="1554406118166" duration="6119000" />
       <workItem from="1554449967165" duration="1599000" />
       <workItem from="1554547785705" duration="37000" />
+      <workItem from="1556173112893" duration="7637000" />
+      <workItem from="1556466389833" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7755000" />
+    <option name="totallyTimeSpent" value="15439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -207,7 +219,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" x="0" y="24" width="1366" height="341" id="Run" order="2" weight="0.32626426" />
+      <window_info anchor="bottom" x="0" y="24" width="1366" height="247" id="Run" order="2" weight="0.3251634" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
@@ -231,20 +243,29 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/follow.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/follow.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/follow.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="method#main#0;class#follow#0" expanded="true" />
-            <element signature="method#first#0;class#follow#0" expanded="true" />
-            <element signature="method#follow#0;class#follow#0" expanded="true" />
-            <element signature="method#removeDuplicates#0;class#follow#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -259,13 +280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lexo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -290,23 +304,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lexo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/First.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="322">
+          <caret line="14" column="47" selection-end-line="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/follow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="method#main#0;class#follow#0" expanded="true" />
-            <element signature="method#first#0;class#follow#0" expanded="true" />
-            <element signature="method#follow#0;class#follow#0" expanded="true" />
-            <element signature="method#removeDuplicates#0;class#follow#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="106">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
         </state>
       </provider>
     </entry>

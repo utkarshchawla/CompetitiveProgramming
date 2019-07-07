@@ -2,32 +2,23 @@ package june_23;
 
 import java.lang.Character.Subset;
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class arraylist {
 
     public static void main(String[] args) {
-        // Integer[] one = { 1, 1, 2, 2, 2, 3, 5 };
-        // Integer[] two = { 1, 1, 1, 2, 2, 4, 5 };
-        // //
-        // ArrayList<Integer> inter = getIntersection(one, two);
-        // System.out.println(inter);
-        String s = "abc";
-        System.out.println(subsequencevar(s));
-        // System.out.println(getboardpath(0, 10).size());
-        // System.out.println(getMazePathsMulti(0, 0, 2, 2));
-//		System.out.println(perm("abcd"));
-        // System.out.println(getKPC("169"));
-        // printSSWAscii("ab", "");
-        // printKPC("12", "");
-        // printPermutation("abc", "");
-        // System.out.println(permDup("abc"));
-        // printPermutationduplicate("abc", "");
+//        System.out.println(getMazePathsMulti(0, 0, 2, 2));
+        printKPC("23","");
+
+
+        System.out.println(permDup("aab"));
     }
 
     public static ArrayList<Integer> getIntersection(Integer[] one, Integer[] two) {
         ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0, k = 0; i < one.length && k < two.length; ) {
-            if (one[i] == two[k]) {
+        int i = 0, k = 0;
+        while (i < one.length && k < two.length) {
+            if (one[i].equals(two[k])) {
                 list.add(one[i]);
                 k++;
                 i++;
@@ -170,7 +161,6 @@ public class arraylist {
     }
 
     public static ArrayList<String> perm(String s) {
-
         if (s.length() == 0) {
             ArrayList<String> br = new ArrayList<>();
             br.add("");
@@ -242,37 +232,30 @@ public class arraylist {
 
     }
 
+
     public static ArrayList<String> permDup(String s) {
         if (s.length() == 0) {
-            ArrayList<String> br = new ArrayList<>();
-            br.add("");
-            return br;
+            ArrayList<String> rl = new ArrayList<>();
+            rl.add("");
+            return rl;
         }
-        char ch = s.charAt(0);
-        String ros = s.substring(1);
-
-        ArrayList<String> rr = permDup(ros);
-        ArrayList<String> mr = new ArrayList<>();
-        mr.add(" ");
-        for (String rs : rr) {
-            for (int i = 0; i <= rs.length(); i++) {
-                StringBuilder sb = new StringBuilder(rs);
-                sb.insert(i, ch);
-                for (int j = 0; j < mr.size(); j++) {
-                    if (!sb.toString().equals(mr.get(j))) {
-                        mr.add(sb.toString());
-                    }
-                }
-
-            }
-
+        ArrayList<String> ml = new ArrayList<>();
+        HashSet<Character> set = new HashSet<>();
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            String ros = s.substring(0, i) + s.substring(i + 1);
+            if (set.contains(ch)) continue;
+            set.add(ch);
+            ArrayList<String> rl = permDup(ros);
+            for (String str : rl) ml.add(ch + str);
         }
-        return mr;
+        return ml;
     }
 
-    // backtracking method ------------------------------------
+    // backtracking method ----------------------------------------
     // ------------------------------------------------------------
     // ------------------------------------------------------------
+
     public static void printSSWAscii(String ques, String ans) {
         if (ques.length() == 0) {
             System.out.println(ans);
@@ -334,3 +317,4 @@ public class arraylist {
     }
 
 }
+

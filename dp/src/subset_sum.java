@@ -70,8 +70,8 @@ public class subset_sum {
         FastWriter fw = new FastWriter();
         int set[] = {2, 3, 7, 8, 10};
 //        subsetSumAll(set, 14, 0, "");
-        int[][] arr = new int[15][6];
-        System.out.println(subsetSumTD(set, 14, 0,arr));
+        Boolean[][] arr = new Boolean[15][6];
+        System.out.println(subsetSumTD(set, 14, 0, arr));
     }
 
     public static void subsetSumAll(int[] set, int target, int vidx, String ans) {

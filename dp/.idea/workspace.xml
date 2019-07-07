@@ -24,26 +24,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="subset_sum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/subset_sum.java">
+      <file leaf-file-name="questions" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/questions">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
+            <state relative-caret-position="69">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rodCutting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rodCutting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="127" column="112" lean-forward="true" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="112" />
               <folding>
-                <element signature="method#main#0;class#subset_sum#0" expanded="true" />
+                <element signature="class#FastWriter#0;class#rodCutting#0" />
+                <element signature="class#FastReader#0;class#rodCutting#0" />
+                <element signature="method#main#0;class#rodCutting#0" expanded="true" />
+                <element signature="e#1686#1729#0" />
+                <element signature="method#numDecodings#0;class#rodCutting#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rodCutting.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rodCutting.java">
+      <file leaf-file-name="coins.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/coins.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="90" column="46" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+            <state relative-caret-position="253">
+              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
               <folding>
-                <element signature="class#FastWriter#0;class#rodCutting#0" />
-                <element signature="class#FastReader#0;class#rodCutting#0" />
+                <element signature="class#FastWriter#0;class#coins#0" />
+                <element signature="class#FastReader#0;class#coins#0" />
+                <element signature="e#1740#1783#0" />
+                <element signature="e#1862#1908#0" />
               </folding>
             </state>
           </provider>
@@ -70,19 +85,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/lis.java" />
-        <option value="$PROJECT_DIR$/src/knapsack.java" />
         <option value="$PROJECT_DIR$/src/lcs.java" />
-        <option value="$PROJECT_DIR$/src/mcm.java" />
         <option value="$PROJECT_DIR$/src/editdist.java" />
         <option value="$PROJECT_DIR$/src/test.java" />
-        <option value="$PROJECT_DIR$/src/coins.java" />
         <option value="$PROJECT_DIR$/src/jobScheduling.java" />
-        <option value="$PROJECT_DIR$/src/rodCutting.java" />
-        <option value="$PROJECT_DIR$/src/egg_dropping.java" />
         <option value="$PROJECT_DIR$/src/textJustification.java" />
         <option value="$PROJECT_DIR$/src/stockbuysell.java" />
         <option value="$PROJECT_DIR$/src/questions" />
         <option value="$PROJECT_DIR$/src/subset_sum.java" />
+        <option value="$PROJECT_DIR$/src/knapsack.java" />
+        <option value="$PROJECT_DIR$/src/mcm.java" />
+        <option value="$PROJECT_DIR$/src/egg_dropping.java" />
+        <option value="$PROJECT_DIR$/src/rodCutting.java" />
+        <option value="$PROJECT_DIR$/src/coins.java" />
       </list>
     </option>
   </component>
@@ -97,6 +112,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,14 +130,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crux2sum2017" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -138,20 +153,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.subset_sum">
+  <component name="RunManager" selected="Application.rodCutting">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="egg_dropping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="egg_dropping" />
+    <configuration name="coins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coins" />
       <module name="dp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="jobScheduling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jobScheduling" />
+    <configuration name="knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knapsack" />
+      <module name="dp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="mcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mcm" />
       <module name="dp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -162,11 +182,6 @@
     </configuration>
     <configuration name="subset_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="subset_sum" />
-      <module name="dp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="textJustification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="textJustification" />
       <module name="dp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -209,19 +224,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.jobScheduling" />
-      <item itemvalue="Application.rodCutting" />
-      <item itemvalue="Application.egg_dropping" />
-      <item itemvalue="Application.textJustification" />
       <item itemvalue="Application.subset_sum" />
+      <item itemvalue="Application.knapsack" />
+      <item itemvalue="Application.mcm" />
+      <item itemvalue="Application.coins" />
+      <item itemvalue="Application.rodCutting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.subset_sum" />
-        <item itemvalue="Application.textJustification" />
-        <item itemvalue="Application.egg_dropping" />
         <item itemvalue="Application.rodCutting" />
-        <item itemvalue="Application.jobScheduling" />
+        <item itemvalue="Application.coins" />
+        <item itemvalue="Application.mcm" />
+        <item itemvalue="Application.knapsack" />
+        <item itemvalue="Application.subset_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -239,11 +254,12 @@
       <workItem from="1529749964587" duration="164000" />
       <workItem from="1529756031748" duration="71000" />
       <workItem from="1531844832338" duration="40000" />
+      <workItem from="1561376551627" duration="22032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353000" />
+    <option name="totallyTimeSpent" value="22385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -252,11 +268,12 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32789558" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3283582" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32663316" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32626426" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
@@ -265,11 +282,10 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.24963397" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39805827" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3980424" />
       <window_info id="Favorites" order="2" sideWeight="0.51104975" side_tool="true" weight="0.24963397" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3283582" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -289,13 +305,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/knapsack.java</url>
-          <line>117</line>
+          <line>121</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/mcm.java</url>
-          <line>99</line>
+          <line>98</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -307,7 +323,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/rodCutting.java</url>
-          <line>112</line>
+          <line>114</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
@@ -317,8 +333,20 @@
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/coins.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rodCutting.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -327,7 +355,35 @@
         <state relative-caret-position="1012">
           <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
           <folding>
-            <element signature="method#main#0;class#subset_sum#0" expanded="true" />
+            <element signature="class#FastWriter#0;class#subset_sum#0" />
+            <element signature="class#FastReader#0;class#subset_sum#0" />
+            <element signature="method#subsetSumTD#0;class#subset_sum#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rodCutting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="90" column="46" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+          <folding>
+            <element signature="class#FastWriter#0;class#rodCutting#0" />
+            <element signature="class#FastReader#0;class#rodCutting#0" />
+            <element signature="method#main#0;class#rodCutting#0" expanded="true" />
+            <element signature="e#1686#1729#0" />
+            <element signature="method#numDecodings#0;class#rodCutting#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/subset_sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
+          <folding>
+            <element signature="class#FastWriter#0;class#subset_sum#0" />
+            <element signature="class#FastReader#0;class#subset_sum#0" />
+            <element signature="method#subsetSumTD#0;class#subset_sum#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -337,7 +393,9 @@
         <state relative-caret-position="2254">
           <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
           <folding>
-            <element signature="method#main#0;class#subset_sum#0" expanded="true" />
+            <element signature="class#FastWriter#0;class#subset_sum#0" />
+            <element signature="class#FastReader#0;class#subset_sum#0" />
+            <element signature="method#subsetSumTD#0;class#subset_sum#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -357,7 +415,8 @@
             <element signature="class#FastWriter#0;class#rodCutting#0" />
             <element signature="class#FastReader#0;class#rodCutting#0" />
             <element signature="method#main#0;class#rodCutting#0" expanded="true" />
-            <element signature="method#rodCuttingTD#0;class#rodCutting#0" expanded="true" />
+            <element signature="e#1686#1729#0" />
+            <element signature="method#numDecodings#0;class#rodCutting#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -412,7 +471,8 @@
             <element signature="class#FastWriter#0;class#rodCutting#0" />
             <element signature="class#FastReader#0;class#rodCutting#0" />
             <element signature="method#main#0;class#rodCutting#0" expanded="true" />
-            <element signature="method#rodCuttingTD#0;class#rodCutting#0" expanded="true" />
+            <element signature="e#1686#1729#0" />
+            <element signature="method#numDecodings#0;class#rodCutting#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -480,42 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/knapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="127" column="22" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
-          <folding>
-            <element signature="class#FastWriter#0;class#knapsack#0" />
-            <element signature="class#FastReader#0;class#knapsack#0" />
-            <element signature="method#main#0;class#knapsack#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mcm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="class#FastWriter#0;class#mcm#0" />
-            <element signature="class#FastReader#0;class#mcm#0" />
-            <element signature="method#main#0;class#mcm#0" expanded="true" />
-            <element signature="method#mcmBU#0;class#mcm#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lcs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
@@ -531,27 +559,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/coins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jobScheduling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/egg_dropping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/textJustification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -560,6 +567,75 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stockbuysell.java" />
+    <entry file="file://$PROJECT_DIR$/src/knapsack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="124" column="33" lean-forward="true" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+          <folding>
+            <element signature="class#FastWriter#0;class#knapsack#0" />
+            <element signature="class#FastReader#0;class#knapsack#0" />
+            <element signature="e#1806#1848#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lcs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
+          <folding>
+            <element signature="class#FastWriter#0;class#lcs#0" />
+            <element signature="class#FastReader#0;class#lcs#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mcm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+          <folding>
+            <element signature="class#FastWriter#0;class#mcm#0" />
+            <element signature="class#FastReader#0;class#mcm#0" />
+            <element signature="method#mcmBU#0;class#mcm#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/subset_sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding>
+            <element signature="class#FastWriter#0;class#subset_sum#0" />
+            <element signature="class#FastReader#0;class#subset_sum#0" />
+            <element signature="method#subsetSumTD#0;class#subset_sum#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/egg_dropping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="class#FastWriter#0;class#egg_dropping#0" />
+            <element signature="class#FastReader#0;class#egg_dropping#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jobScheduling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="class#FastWriter#0;class#jobScheduling#0" />
+            <element signature="class#FastReader#0;class#jobScheduling#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/questions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -567,25 +643,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/subset_sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
-          <folding>
-            <element signature="method#main#0;class#subset_sum#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rodCutting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="90" column="46" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+        <state relative-caret-position="286">
+          <caret line="127" column="112" lean-forward="true" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="112" />
           <folding>
             <element signature="class#FastWriter#0;class#rodCutting#0" />
             <element signature="class#FastReader#0;class#rodCutting#0" />
             <element signature="method#main#0;class#rodCutting#0" expanded="true" />
-            <element signature="method#rodCuttingTD#0;class#rodCutting#0" expanded="true" />
+            <element signature="e#1686#1729#0" />
+            <element signature="method#numDecodings#0;class#rodCutting#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding>
+            <element signature="class#FastWriter#0;class#coins#0" />
+            <element signature="class#FastReader#0;class#coins#0" />
+            <element signature="e#1740#1783#0" />
+            <element signature="e#1862#1908#0" />
           </folding>
         </state>
       </provider>

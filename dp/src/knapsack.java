@@ -1,5 +1,7 @@
 import java.io.*;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class knapsack {
@@ -75,8 +77,9 @@ public class knapsack {
         int[] weights = {1, 3, 4, 5};
         int w = 30;
         int[][] strg = new int[values.length][w + 1];
+        for (int[] arr : strg) Arrays.fill(arr, -1);
         System.out.println(knapsackTD(values, weights, 0, w, strg));
-        System.out.println(knapsackBD(values, weights, w));
+//        System.out.println(knapsackBD(values, weights, w));
 
     }
 
@@ -85,7 +88,8 @@ public class knapsack {
             return 0;
         }
 
-        if (strg[vidx][w] != 0) {
+        if (strg[vidx][w] != -1) {
+            System.out.println(vidx + " " + w);
             return strg[vidx][w];
         }
         int a = knapsackTD(values, weights, vidx + 1, w, strg);

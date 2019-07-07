@@ -86,7 +86,7 @@ public class Trie {
 
 		if (child.eow == false && child.children.size() == 0) {
 			node.children.remove(ch);
-			this.numWords--;
+//			this.numWords--;
 		}
 
 	}

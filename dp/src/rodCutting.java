@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.HashMap;
 import java.util.StringTokenizer;
 
 public class rodCutting {
@@ -67,15 +68,16 @@ public class rodCutting {
     }
 
     public static void main(String[] args) {
-        FastReader fr = new FastReader();
-        FastWriter fw = new FastWriter();
-
-        int[] len = {1, 2, 3, 4};
-        int[] prices = {2, 5, 7, 8};
-        int l = 5;
-        int[] strg = new int[l + 1];
-        System.out.println(rodCuttingTD(l, len, prices, strg));
-        System.out.println(rodCuttingBU(l, len, prices));
+//        FastReader fr = new FastReader();
+//        FastWriter fw = new FastWriter();
+//
+//        int[] len = {1, 2, 3, 4};
+//        int[] prices = {2, 5, 7, 8};
+//        int l = 5;
+//        int[] strg = new int[l + 1];
+//        System.out.println(rodCuttingTD(l, len, prices, strg));
+//        System.out.println(rodCuttingBU(l, len, prices));
+        System.out.println(numDecodings("17"));
     }
 
     public static int rodCuttingTD(int l, int[] len, int[] prices, int[] strg) {
@@ -111,5 +113,20 @@ public class rodCutting {
         }
 
         return strg[strg.length - 1][strg[0].length - 1];
+    }
+
+    public static int numDecodings(String A) {
+        int[] dp = new int[A.length()];
+        return helper(A, 0, dp);
+    }
+
+    public static int helper(String s, int idx, int[] dp) {
+        if (idx == s.length()) return 1;
+        // if(dp[idx] != 0)return dp[idx];
+        int ans = 0;
+        if (s.charAt(idx) > '0') ans += helper(s, idx + 1, dp);
+        if (idx + 1 < s.length() && (s.charAt(idx) == '1' || (s.charAt(idx) == '2' && s.charAt(idx + 1) < '7')))
+            ans += helper(s, idx + 2, dp);
+        return ans;
     }
 }

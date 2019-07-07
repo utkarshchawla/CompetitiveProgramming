@@ -5,10 +5,10 @@ public class recursion {
 
     public static void main(String[] args) {
 
-        // PDIskips(6);
+        PDIskips(6);
         // System.out.println(factorial(5));
         // System.out.println(powerpoor(3, 7));
-        System.out.println(powergood(2, 12));
+//        System.out.println(powergood(2, 12));
     }
 
     public static void PDIskips(int n) {

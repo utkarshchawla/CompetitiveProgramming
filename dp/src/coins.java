@@ -66,15 +66,16 @@ public class coins {
             return str;
         }
     }
+    public static int count = 0;
 
     public static void main(String[] args) {
-        FastReader fr = new FastReader();
-        FastWriter fw = new FastWriter();
+//        FastReader fr = new FastReader();
+//        FastWriter fw = new FastWriter();
         int[] arr = {1, 3, 4, 5};
-        System.out.println(coinsTD(arr, 7));
-        System.out.println(coinsBU(arr, 7));
+//        System.out.println(coinsTD(arr, 7));
+//        System.out.println(coinsBU(arr, 7));
         coinstotal(arr, 7, "", 0);
-        System.out.println(coinstotalBetter(arr,7));
+//        System.out.println(coinstotalBetter(arr,7));
 
     }
 
@@ -106,7 +107,6 @@ public class coins {
                         ans[j] = val;
                     }
                     strg[j] = Math.min(strg[j], 1 + strg[j - val]);
-
                 }
 
             }
@@ -127,6 +127,7 @@ public class coins {
             return;
         }
         if (sum == 0) {
+            count++;
             System.out.println(ans);
             return;
         }

@@ -3,8 +3,7 @@ package june_19;
 public class stringops {
 
     public static void main(String[] args) {
-
-        String s = "abdgasdf";
+//        String s = "abdgasdf";
         // String b = "abcd";
 //		 printsubstrings(s);
         // System.out.println(isPalindrome(s));
@@ -14,10 +13,11 @@ public class stringops {
 //		 System.out.println(removeduplicates(s));
         // System.out.println(compression(s));
         // System.out.println(replace(s));
-        System.out.println(difference(s));
+//        System.out.println(difference(s));
         // System.out.println(maxfreq(s));
-        // subsequences(s);
+         subsequences("abc");
 //		printChars(s);
+//        System.out.println(subsequences("abc"));
     }
 
     public static void printChars(String s) {
@@ -51,7 +51,6 @@ public class stringops {
                 if (isPalindrome(s.substring(i, j))) {
                     count++;
                 }
-
             }
         }
         return count;
@@ -62,7 +61,7 @@ public class stringops {
         for (int i = 0; i < s.length(); i++) {
             if (i < s.length() - 1 && s.charAt(i) == s.charAt(i + 1)) {
                 i++;
-                sb.append(s.charAt(i));
+//                sb.append(s.charAt(i));
                 // System.out.print(s.substring(i, i + 1));
             } else {
                 // System.out.print(s.substring(i, i + 1));

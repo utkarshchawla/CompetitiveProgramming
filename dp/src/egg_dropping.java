@@ -89,9 +89,7 @@ public class egg_dropping {
         int min = Integer.MAX_VALUE;
         for (int i = 1; i <= nf; i++) {
             int val = Math.max(eggDropTD(ne - 1, i - 1, strg), eggDropTD(ne, nf - i, strg));
-            if (val < min) {
-                min = val;
-            }
+            min = Math.min(min,val);
         }
 
         return strg[ne][nf] = min + 1;

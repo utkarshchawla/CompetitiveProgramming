@@ -68,11 +68,10 @@ public class mcm {
     public static void main(String[] args) {
         FastReader fr = new FastReader();
         FastWriter fw = new FastWriter();
-        int[] dims = {10, 20, 30, 40, 50, 60};
+        int[] dims = {20, 25, 60, 42, 57,43};
         int[][] strg = new int[dims.length][dims.length];
         System.out.println(mcmTD(dims, 0, dims.length - 1, strg));
         System.out.println(mcmBU(dims));
-
     }
 
     public static int mcmTD(int[] dims, int si, int fi, int[][] strg) {
@@ -97,23 +96,23 @@ public class mcm {
     }
 
     public static int mcmBU(int[] dims) {
-        int strg[][] = new int[dims.length - 1][dims.length];
+        int strg[][] = new int[dims.length][dims.length];
         for (int i = strg.length - 1; i >= 0; i--) {
             for (int j = i + 2; j < strg[0].length; j++) {
                 int min = Integer.MAX_VALUE;
                 for (int k = i + 1; k < j; k++) {
-                    int sum1 = strg[i][k - 1];
-                    int sum2 = strg[k][j - 1];
+                    int sum1 = strg[i][k];
+                    int sum2 = strg[k][j];
                     int sum3 = dims[i] * dims[k] * dims[j];
                     int sum = sum1 + sum2 + sum3;
                     if (sum < min) {
                         min = sum;
                     }
                 }
-                strg[i][j - 1] = min;
+                strg[i][j] = min;
             }
         }
 
-        return strg[0][strg[0].length - 2];
+        return strg[0][strg[0].length - 1];
     }
 }

@@ -22,6 +22,8 @@ public class graph {
     private static int parent[];
 
     public static void main(String[] args) {
+//        g = new ArrayList[]
+        Deque<Integer> d = new ArrayDeque<>();
 
     }
 

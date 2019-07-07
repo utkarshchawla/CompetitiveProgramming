@@ -18,16 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="C.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/C.java">
+      <file leaf-file-name="temp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/temp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+            <state relative-caret-position="240">
+              <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
               <folding>
-                <element signature="class#FastWriter#0;class#C_2#0" />
-                <element signature="class#FastReader#0;class#C_2#0" />
-                <element signature="e#2321#2377#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="class#FastWriter#0;class#temp#0" />
+                <element signature="class#FastReader#0;class#temp#0" />
+                <element signature="method#main#0;class#temp#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hola.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hola.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -49,12 +59,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/temp.java" />
         <option value="$PROJECT_DIR$/src/A.java" />
         <option value="$PROJECT_DIR$/src/B_2.java" />
         <option value="$PROJECT_DIR$/src/B.java" />
         <option value="$PROJECT_DIR$/src/C_2.java" />
         <option value="$PROJECT_DIR$/src/C.java" />
+        <option value="$PROJECT_DIR$/src/temp.java" />
+        <option value="$PROJECT_DIR$/src/HackerEarth.java" />
+        <option value="$PROJECT_DIR$/src/hola.java" />
       </list>
     </option>
   </component>
@@ -110,17 +122,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.C_2">
+  <component name="RunManager" selected="Application.hola">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A" />
       <module name="CodeJam2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="B" />
-      <module name="CodeJam2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C" />
       <module name="CodeJam2019" />
@@ -131,13 +138,22 @@
       <module name="CodeJam2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <output_file path="$USER_HOME$/Desktop/New Text Document.txt" is_save="true" />
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="HackerEarth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerEarth" />
       <module name="CodeJam2019" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="hola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hola" />
+      <module name="CodeJam2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temp" />
+      <module name="CodeJam2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -179,18 +195,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.B" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.A" />
       <item itemvalue="Application.C" />
-      <item itemvalue="Application.C_2" />
+      <item itemvalue="Application.HackerEarth" />
+      <item itemvalue="Application.temp" />
+      <item itemvalue="Application.hola" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C_2" />
+        <item itemvalue="Application.hola" />
+        <item itemvalue="Application.HackerEarth" />
+        <item itemvalue="Application.temp" />
         <item itemvalue="Application.C" />
         <item itemvalue="Application.A" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -205,12 +222,15 @@
       <option name="presentableId" value="Default" />
       <updated>1554547820507</updated>
       <workItem from="1554547823996" duration="26378000" />
-      <workItem from="1554615432252" duration="230000" />
+      <workItem from="1554615432252" duration="2062000" />
+      <workItem from="1554801723464" duration="6000" />
+      <workItem from="1555227019226" duration="8656000" />
+      <workItem from="1555767739073" duration="1750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26665000" />
+    <option name="totallyTimeSpent" value="38852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -219,13 +239,13 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32843137" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32789558" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
@@ -252,6 +272,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/temp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2668">
+          <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#FastWriter#0;class#temp#0" />
+            <element signature="class#FastReader#0;class#temp#0" />
+            <element signature="method#main#0;class#temp#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/C.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2139">
@@ -259,7 +299,6 @@
           <folding>
             <element signature="class#FastWriter#0;class#C_2#0" />
             <element signature="class#FastReader#0;class#C_2#0" />
-            <element signature="e#2321#2377#0" />
           </folding>
         </state>
       </provider>
@@ -271,18 +310,6 @@
           <folding>
             <element signature="class#FastWriter#0;class#B#0" />
             <element signature="class#FastReader#0;class#B#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/temp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="class#FastWriter#0;class#temp#0" />
-            <element signature="class#FastReader#0;class#temp#0" />
-            <element signature="method#main#0;class#temp#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -320,6 +347,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="class#FastWriter#0;class#C_2#0" />
+            <element signature="class#FastReader#0;class#C_2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/B.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -331,15 +369,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C.java">
+    <entry file="file://$PROJECT_DIR$/src/HackerEarth.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+        <state relative-caret-position="240">
+          <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
           <folding>
-            <element signature="class#FastWriter#0;class#C_2#0" />
-            <element signature="class#FastReader#0;class#C_2#0" />
-            <element signature="e#2321#2377#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="class#FastWriter#0;class#temp#0" />
+            <element signature="class#FastReader#0;class#temp#0" />
+            <element signature="method#main#0;class#temp#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

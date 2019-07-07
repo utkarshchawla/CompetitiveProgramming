@@ -74,6 +74,8 @@
         <option value="$PROJECT_DIR$/src/C221.java" />
         <option value="$PROJECT_DIR$/src/B322.java" />
         <option value="$PROJECT_DIR$/src/B275.java" />
+        <option value="$PROJECT_DIR$/src/SEVENSEG.java" />
+        <option value="$PROJECT_DIR$/src/nlp.java" />
       </list>
     </option>
   </component>
@@ -87,10 +89,30 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codeforces_ladder1600" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces_ladder1600" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeforces_ladder1600" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces_ladder1600" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -109,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.B275">
+  <component name="RunManager" selected="Application.SEVENSEG">
     <configuration name="B275" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B275" />
       <module name="ladder1600" />
@@ -125,13 +147,13 @@
       <module name="ladder1600" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="C279" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C279" />
+    <configuration name="C550" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C550" />
       <module name="ladder1600" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="C550" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C550" />
+    <configuration name="SEVENSEG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SEVENSEG" />
       <module name="ladder1600" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -177,19 +199,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.C279" />
       <item itemvalue="Application.C550" />
       <item itemvalue="Application.C221" />
       <item itemvalue="Application.B322" />
       <item itemvalue="Application.B275" />
+      <item itemvalue="Application.SEVENSEG" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SEVENSEG" />
         <item itemvalue="Application.B275" />
         <item itemvalue="Application.B322" />
         <item itemvalue="Application.C221" />
         <item itemvalue="Application.C550" />
-        <item itemvalue="Application.C279" />
       </list>
     </recent_temporary>
   </component>
@@ -217,11 +239,15 @@
       <workItem from="1545237785644" duration="5604000" />
       <workItem from="1545667290803" duration="10000" />
       <workItem from="1545740468171" duration="12000" />
+      <workItem from="1553967418568" duration="5393000" />
+      <workItem from="1554127448433" duration="2906000" />
+      <workItem from="1554403760332" duration="24000" />
+      <workItem from="1554574114016" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78112000" />
+    <option name="totallyTimeSpent" value="86467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -233,17 +259,17 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.10322108" side_tool="true" weight="0.32843137" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89677894" weight="0.32352942" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89677894" weight="0.32352942" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2489019" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -255,14 +281,14 @@
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89677894" weight="0.32626426" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89677894" weight="0.32626426" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -271,7 +297,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.10322108" side_tool="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3980424" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -364,10 +390,11 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="50" />
+      <option name="time" value="53" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/nlp.java" />
     <entry file="file://$PROJECT_DIR$/src/B322.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -699,6 +726,8 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SEVENSEG.java" />
+    <entry file="file://$PROJECT_DIR$/src/nlp.java" />
   </component>
   <component name="masterDetails">
     <states>
