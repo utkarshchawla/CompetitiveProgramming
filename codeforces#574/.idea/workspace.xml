@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994e6644-66d8-4c1b-bfe1-20607cb79965" name="Default" comment="" />
+    <list default="true" id="80a23251-77f4-41d2-b935-94c840207441" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,28 +18,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="D.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/D.java">
+      <file leaf-file-name="A.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+            <state relative-caret-position="30">
+              <caret line="87" column="50" lean-forward="true" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
               <folding>
-                <element signature="class#FastWriter#0;class#D#0" />
-                <element signature="class#FastReader#0;class#D#0" />
+                <element signature="class#FastWriter#0;class#A#0" />
+                <element signature="class#FastReader#0;class#A#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A2.java">
+      <file leaf-file-name="B.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/B.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+            <state relative-caret-position="176">
+              <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#FastWriter#0;class#A2#0" />
-                <element signature="class#FastReader#0;class#A2#0" />
+                <element signature="class#FastWriter#0;class#B#0" />
+                <element signature="class#FastReader#0;class#B#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/C.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="94" column="33" lean-forward="true" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+              <folding>
+                <element signature="class#FastWriter#0;class#C#0" />
+                <element signature="class#FastReader#0;class#C#0" />
+                <element signature="method#main#0;class#C#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="92" column="29" lean-forward="true" selection-end-line="119" />
+              <folding>
+                <element signature="class#FastWriter#0;class#D#0" />
+                <element signature="class#FastReader#0;class#D#0" />
+                <element signature="method#modpow#0;class#D#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="D2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/D2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="111" column="56" lean-forward="true" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
+              <folding>
+                <element signature="class#FastWriter#0;class#D#0" />
+                <element signature="class#FastReader#0;class#D#0" />
+                <element signature="method#pair#0;class#pair#0;class#D2#0" expanded="true" />
+                <element signature="method#getn#0;class#D2#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,6 +96,9 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/D2.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -61,7 +106,7 @@
         <option value="$PROJECT_DIR$/src/B.java" />
         <option value="$PROJECT_DIR$/src/C.java" />
         <option value="$PROJECT_DIR$/src/D.java" />
-        <option value="$PROJECT_DIR$/src/A2.java" />
+        <option value="$PROJECT_DIR$/src/D2.java" />
       </list>
     </option>
   </component>
@@ -81,12 +126,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="codeforces#573" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeforces#573" type="462c0819:PsiDirectoryNode" />
+              <item name="codeforces#574" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces#574" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="codeforces#573" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeforces#573" type="462c0819:PsiDirectoryNode" />
+              <item name="codeforces#574" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces#574" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -100,7 +145,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
@@ -116,25 +161,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.D">
-    <configuration name="A2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2" />
-      <module name="codeforces#573" />
+  <component name="RunManager" selected="Application.D2">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A" />
+      <module name="codeforces#574" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B" />
-      <module name="codeforces#573" />
+      <module name="codeforces#574" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C" />
-      <module name="codeforces#573" />
+      <module name="codeforces#574" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D" />
-      <module name="codeforces#573" />
+      <module name="codeforces#574" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="D2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D2" />
+      <module name="codeforces#574" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -179,17 +229,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.A2" />
+      <item itemvalue="Application.A" />
       <item itemvalue="Application.B" />
       <item itemvalue="Application.C" />
       <item itemvalue="Application.D" />
+      <item itemvalue="Application.D2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D2" />
         <item itemvalue="Application.D" />
         <item itemvalue="Application.C" />
         <item itemvalue="Application.B" />
-        <item itemvalue="Application.A2" />
+        <item itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
@@ -198,17 +250,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="994e6644-66d8-4c1b-bfe1-20607cb79965" name="Default" comment="" />
-      <created>1563006690165</created>
+      <changelist id="80a23251-77f4-41d2-b935-94c840207441" name="Default" comment="" />
+      <created>1563470131084</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563006690165</updated>
-      <workItem from="1563006693167" duration="14103000" />
+      <updated>1563470131084</updated>
+      <workItem from="1563470143070" duration="15800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14103000" />
+    <option name="totallyTimeSpent" value="15800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -222,17 +274,17 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,14 +298,39 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A.java</url>
+          <line>87</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/D.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/D2.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/D2.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="87" column="50" lean-forward="true" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
           <folding>
             <element signature="class#FastWriter#0;class#A#0" />
             <element signature="class#FastReader#0;class#A#0" />
@@ -263,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+        <state relative-caret-position="176">
+          <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
           <folding>
             <element signature="class#FastWriter#0;class#B#0" />
             <element signature="class#FastReader#0;class#B#0" />
@@ -274,34 +351,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="94" column="62" lean-forward="true" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
+        <state relative-caret-position="189">
+          <caret line="94" column="33" lean-forward="true" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
           <folding>
             <element signature="class#FastWriter#0;class#C#0" />
             <element signature="class#FastReader#0;class#C#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#FastWriter#0;class#A2#0" />
-            <element signature="class#FastReader#0;class#A2#0" />
+            <element signature="method#main#0;class#C#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+        <state relative-caret-position="107">
+          <caret line="92" column="29" lean-forward="true" selection-end-line="119" />
           <folding>
             <element signature="class#FastWriter#0;class#D#0" />
             <element signature="class#FastReader#0;class#D#0" />
+            <element signature="method#modpow#0;class#D#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/D2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="111" column="56" lean-forward="true" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
+          <folding>
+            <element signature="class#FastWriter#0;class#D#0" />
+            <element signature="class#FastReader#0;class#D#0" />
+            <element signature="method#pair#0;class#pair#0;class#D2#0" expanded="true" />
+            <element signature="method#getn#0;class#D2#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -309,30 +389,6 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -351,19 +407,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>codeforces#573</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

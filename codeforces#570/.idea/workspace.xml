@@ -35,11 +35,12 @@
       <file leaf-file-name="E2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/E2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+            <state>
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="class#FastWriter#0;class#E2#0" />
                 <element signature="class#FastReader#0;class#E2#0" />
+                <element signature="method#main#0;class#E2#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,12 +212,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562846507628</updated>
-      <workItem from="1562846510040" duration="7522000" />
+      <workItem from="1562846510040" duration="7796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7522000" />
+    <option name="totallyTimeSpent" value="7796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -231,7 +232,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
@@ -317,11 +318,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/E2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+        <state>
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="class#FastWriter#0;class#E2#0" />
             <element signature="class#FastReader#0;class#E2#0" />
+            <element signature="method#main#0;class#E2#0" expanded="true" />
           </folding>
         </state>
       </provider>
