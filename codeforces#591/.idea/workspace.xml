@@ -24,6 +24,8 @@
       <change beforePath="$PROJECT_DIR$/../codeforces#1197/src/temp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../codeforces#577/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#577/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codeforces#590/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#590/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crux2sum2017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crux2sum2017/src/aug_18/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/src/aug_18/SegmentTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crux2sum2017/src/july_30/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/src/july_30/Trie.java" afterDir="false" />
@@ -40,8 +42,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
@@ -50,25 +51,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/C.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#FastWriter#0;class#C#0" />
-                <element signature="class#FastReader#0;class#C#0" />
-                <element signature="method#main#0;class#C#0" expanded="true" />
-                <element signature="method#isok#0;class#C#0" expanded="true" />
-                <element signature="method#gcd#0;class#C#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,6 +70,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/C.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/D.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -112,12 +96,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codeforces#591" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces#591" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeforces#591" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces#591" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -138,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.C">
+  <component name="RunManager" selected="Application.D">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A" />
       <module name="codeforces#591" />
@@ -160,8 +160,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D" />
+      <module name="codeforces#591" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D" />
         <item itemvalue="Application.C" />
         <item itemvalue="Application.B" />
         <item itemvalue="Application.A" />
@@ -179,24 +187,25 @@
       <option name="presentableId" value="Default" />
       <updated>1570373757576</updated>
       <workItem from="1570373760826" duration="12732000" />
-      <workItem from="1570776362248" duration="351000" />
+      <workItem from="1570776362248" duration="411000" />
+      <workItem from="1571301029420" duration="6806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13083000" />
+    <option name="totallyTimeSpent" value="19949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32943144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32943144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,6 +225,18 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/D.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/B.java">
@@ -256,27 +277,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-          <folding>
-            <element signature="class#FastWriter#0;class#D#0" />
-            <element signature="class#FastReader#0;class#D#0" />
-            <element signature="e#816#1015#1" />
-            <element signature="e#838#918#0" />
-            <element signature="e#941#1001#0" />
-            <element signature="e#1383#1435#0" />
-            <element signature="e#1458#1510#0" />
-            <element signature="e#1600#1666#0" />
-            <element signature="e#1699#1766#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
+        <state relative-caret-position="487">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -285,6 +288,47 @@
             <element signature="method#main#0;class#C#0" expanded="true" />
             <element signature="method#isok#0;class#C#0" expanded="true" />
             <element signature="method#gcd#0;class#C#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+          <folding>
+            <element signature="class#FastWriter#0;class#D#0" />
+            <element signature="class#FastReader#0;class#D#0" />
+            <element signature="e#939#1138#1" />
+            <element signature="e#961#1041#0" />
+            <element signature="e#1064#1124#0" />
+            <element signature="e#1506#1558#0" />
+            <element signature="e#1581#1633#0" />
+            <element signature="e#1723#1789#0" />
+            <element signature="e#1822#1889#0" />
+            <element signature="e#2280#2367#1" />
+            <element signature="e#2633#2766#1" />
+            <element signature="e#2769#3041#1" />
+            <element signature="e#3106#3196#1" />
+            <element signature="e#3230#3401#1" />
+            <element signature="e#3293#3327#1" />
+            <element signature="e#3346#3408#1" />
+            <element signature="e#3381#3502#1" />
+            <element signature="e#3430#3492#1" />
+            <element signature="e#3663#3784#1" />
+            <element signature="e#3712#3774#1" />
+            <element signature="e#3884#4176#1" />
+            <element signature="e#3968#4109#1" />
+            <element signature="e#4021#4095#1" />
+            <element signature="e#4904#5176#1" />
+            <element signature="e#5408#5548#1" />
+            <element signature="e#5460#5534#1" />
+            <element signature="e#5742#5863#1" />
+            <element signature="e#5791#5853#1" />
+            <element signature="e#6024#6145#1" />
+            <element signature="e#6073#6135#1" />
+            <element signature="e#6329#6470#1" />
+            <element signature="e#6382#6456#1" />
           </folding>
         </state>
       </provider>
