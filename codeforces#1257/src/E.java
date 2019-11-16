@@ -1,6 +1,6 @@
 import java.io.*;
 import java.math.BigInteger;
-import java.util.HashSet;
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.StringTokenizer;
 
@@ -83,29 +83,23 @@ public class E {
         int k2 = fr.nextInt();
         int k3 = fr.nextInt();
         int tot = k1 + k2 + k3;
-        int min = Math.min(tot - k1, Math.min(tot - k2, tot - k3));
-        int steps = 0;
-        HashSet<Integer> one = new HashSet<>();
-        HashSet<Integer> three = new HashSet<>();
-        int maxone = Integer.MIN_VALUE;
-        for (int i = 0; i < k1; i++) {
-            int v = fr.nextInt();
-            one.add(v);
-            maxone = Math.max(maxone, v);
-        }
-        for (int i = 0; i < k2; i++) fr.nextInt();
-        for (int i = 0; i < k3; i++) three.add(fr.nextInt());
-        for (int i = 1; i <= maxone; i++) {
-            if (one.contains(i)) continue;
-            steps++;
-            three.remove(i);
-        }
-        int minthree = Integer.MAX_VALUE;
-        for (int i : three) minthree = Math.min(minthree, i);
-        for (int i = minthree; i <= tot; i++) {
-            if (three.contains(i)) continue;
-            steps++;
-        }
-        System.out.println(Math.min(min, steps));
+        int[] arr = new int[tot + 1];
+        int[][] dp = new int[tot + 1][4];
+        for(int[] ta : dp) Arrays.fill(ta,-1);
+        for (int i = 0; i < k1; i++) arr[fr.nextInt()] = 1;
+        for (int i = 0; i < k2; i++) arr[fr.nextInt()] = 2;
+        for (int i = 0; i < k3; i++) arr[fr.nextInt()] = 3;
+        int ans = helper(tot, 3, arr, dp);
+        System.out.println(ans);
+    }
+
+    public static int helper(int n, int c, int[] arr, int[][] dp) {
+        if (n == 0) return 0;
+        if (c == 0) return 1000000000;
+        if (dp[n][c] != -1) return dp[n][c];
+        int val = 0;
+        if (arr[n] != c) val = 1;
+        return dp[n][c] = Math.min(helper(n, c - 1, arr, dp), val + helper(n - 1, c, arr, dp));
+
     }
 }

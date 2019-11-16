@@ -22,6 +22,8 @@
       <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/temp$FastWriter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/temp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../codeforces#1197/src/temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codeforces#577/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#577/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codeforces#590/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#590/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codeforces#595/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#595/.idea/workspace.xml" afterDir="false" />
@@ -64,15 +66,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/A.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="166">
-              <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+              <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#FastWriter#0;class#A#0" />
                 <element signature="class#FastReader#0;class#A#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/E.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="91" column="42" lean-forward="true" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+              <folding>
+                <element signature="class#FastWriter#0;class#E#0" />
+                <element signature="class#FastReader#0;class#E#0" />
+                <element signature="method#helper#0;class#E#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +117,8 @@
         <option value="$PROJECT_DIR$/src/A.java" />
         <option value="$PROJECT_DIR$/src/B.java" />
         <option value="$PROJECT_DIR$/src/C.java" />
-        <option value="$PROJECT_DIR$/src/E.java" />
         <option value="$PROJECT_DIR$/src/D.java" />
+        <option value="$PROJECT_DIR$/src/E.java" />
       </list>
     </option>
   </component>
@@ -120,28 +136,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="codeforces1257" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeforces1257" type="462c0819:PsiDirectoryNode" />
+              <item name="codeforces#1257" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces#1257" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="codeforces1257" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeforces1257" type="462c0819:PsiDirectoryNode" />
+              <item name="codeforces#1257" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces#1257" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -161,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.D">
+  <component name="RunManager" selected="Application.E">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A" />
       <module name="codeforces1257" />
@@ -199,8 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D" />
         <item itemvalue="Application.E" />
+        <item itemvalue="Application.D" />
         <item itemvalue="Application.C" />
         <item itemvalue="Application.B" />
         <item itemvalue="Application.A" />
@@ -220,17 +238,17 @@
       <workItem from="1573654516941" duration="7519000" />
       <workItem from="1573712465750" duration="1695000" />
       <workItem from="1573833097385" duration="2467000" />
+      <workItem from="1573891480344" duration="1076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11681000" />
+    <option name="totallyTimeSpent" value="12757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -308,17 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/E.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
-          <folding>
-            <element signature="class#FastWriter#0;class#E#0" />
-            <element signature="class#FastReader#0;class#E#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2231">
@@ -356,11 +363,23 @@
     <entry file="file://$PROJECT_DIR$/src/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
-          <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#FastWriter#0;class#A#0" />
             <element signature="class#FastReader#0;class#A#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="91" column="42" lean-forward="true" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+          <folding>
+            <element signature="class#FastWriter#0;class#E#0" />
+            <element signature="class#FastReader#0;class#E#0" />
+            <element signature="method#helper#0;class#E#0" expanded="true" />
           </folding>
         </state>
       </provider>
