@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc440265-b465-47a9-b254-5d3d9726691a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../#uva_online_judge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../#uva_online_judge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Graph/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graph/src/temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Graph/src/temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#1197/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/A$FastReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/A$FastWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/B$FastReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/B$FastWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/C$FastReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/C$FastWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/D$FastReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/D$FastWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/temp$FastReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/temp$FastWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/out/production/codeforces#1197/temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1197/src/temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#1257/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#1257/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#577/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#577/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#590/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#590/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforces#595/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforces#595/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codeforcesG5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codeforcesG5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/bin/assignment_6/assignment_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/bin/assignment_6/assignment_6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/bin/aug_18/SegmentTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/bin/aug_18/SegmentTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/bin/aug_18/SegmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/bin/aug_18/SegmentTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/bin/aug_6/HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/bin/aug_6/HashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/bin/crux2sum2017/ass1ques6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/bin/crux2sum2017/ass1ques6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/bin/july_30/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/bin/july_30/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/bin/july_5/complexity_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/bin/july_5/complexity_test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/bin/june30/complexity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/bin/june30/complexity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/src/assignment_6/assignment_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/src/assignment_6/assignment_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/src/aug_18/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/src/aug_18/SegmentTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/src/aug_6/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/src/aug_6/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/src/aug_6/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/src/aug_6/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/src/crux2sum2017/ass1ques6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/src/crux2sum2017/ass1ques6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/src/july_30/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/src/july_30/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crux2sum2017/src/june30/complexity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crux2sum2017/src/june30/complexity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dp/out/production/dp/coins.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dp/out/production/dp/coins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dp/src/coins.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dp/src/coins.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+              <folding>
+                <element signature="class#FastWriter#0;class#D#0" />
+                <element signature="class#FastReader#0;class#D#0" />
+                <element signature="e#816#1015#1" />
+                <element signature="e#838#918#0" />
+                <element signature="e#941#1001#0" />
+                <element signature="e#1383#1435#0" />
+                <element signature="e#1458#1510#0" />
+                <element signature="e#1600#1666#0" />
+                <element signature="e#1699#1766#0" />
+                <element signature="e#2738#2866#1" />
+                <element signature="e#3131#3349#1" />
+                <element signature="method#bfs#0;class#D#0" expanded="true" />
+                <element signature="e#4006#4258#1" />
+                <element signature="e#4060#4240#1" />
+                <element signature="method#initialize_search#0;class#D#0" expanded="true" />
+                <element signature="method#connected_components#0;class#D#0" expanded="true" />
+                <element signature="method#main#0;class#D#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/D2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="920">
+              <caret line="113" column="18" lean-forward="true" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+              <folding>
+                <element signature="class#FastWriter#0;class#D2#0" />
+                <element signature="class#FastReader#0;class#D2#0" />
+                <element signature="e#817#1016#1" />
+                <element signature="e#839#919#0" />
+                <element signature="e#942#1002#0" />
+                <element signature="e#1384#1436#0" />
+                <element signature="e#1459#1511#0" />
+                <element signature="e#1601#1667#0" />
+                <element signature="e#1700#1767#0" />
+                <element signature="method#main#0;class#D2#0" expanded="true" />
+                <element signature="class#Interval#0;class#D2#0" />
+                <element signature="method#bfs#0;class#D2#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/A.java" />
+        <option value="$PROJECT_DIR$/src/B.java" />
+        <option value="$PROJECT_DIR$/src/C.java" />
+        <option value="$PROJECT_DIR$/src/D.java" />
+        <option value="$PROJECT_DIR$/src/D2.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="y" value="-22" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codeforces#1253" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces#1253" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeforces#1253" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces#1253" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.D2">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A" />
+      <module name="codeforces#1253" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B" />
+      <module name="codeforces#1253" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C" />
+      <module name="codeforces#1253" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D" />
+      <module name="codeforces#1253" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D2" />
+      <module name="codeforces#1253" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.D2" />
+        <item itemvalue="Application.D" />
+        <item itemvalue="Application.C" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.A" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc440265-b465-47a9-b254-5d3d9726691a" name="Default Changelist" comment="" />
+      <created>1573914522021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573914522021</updated>
+      <workItem from="1573914525980" duration="7870000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7870000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.3298611" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930555" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/D2.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#FastWriter#0;class#A#0" />
+            <element signature="class#FastReader#0;class#A#0" />
+            <element signature="e#816#1015#1" />
+            <element signature="e#838#918#0" />
+            <element signature="e#941#1001#0" />
+            <element signature="e#1383#1435#0" />
+            <element signature="e#1458#1510#0" />
+            <element signature="e#1600#1666#0" />
+            <element signature="e#1699#1766#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
+          <folding>
+            <element signature="class#FastWriter#0;class#B#0" />
+            <element signature="class#FastReader#0;class#B#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="class#FastWriter#0;class#C#0" />
+            <element signature="class#FastReader#0;class#C#0" />
+            <element signature="e#869#1068#1" />
+            <element signature="e#891#971#0" />
+            <element signature="e#994#1054#0" />
+            <element signature="e#1436#1488#0" />
+            <element signature="e#1511#1563#0" />
+            <element signature="e#1653#1719#0" />
+            <element signature="e#1752#1819#0" />
+            <element signature="method#main#0;class#C#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+          <folding>
+            <element signature="class#FastWriter#0;class#D#0" />
+            <element signature="class#FastReader#0;class#D#0" />
+            <element signature="e#816#1015#1" />
+            <element signature="e#838#918#0" />
+            <element signature="e#941#1001#0" />
+            <element signature="e#1383#1435#0" />
+            <element signature="e#1458#1510#0" />
+            <element signature="e#1600#1666#0" />
+            <element signature="e#1699#1766#0" />
+            <element signature="e#2738#2866#1" />
+            <element signature="e#3131#3349#1" />
+            <element signature="method#bfs#0;class#D#0" expanded="true" />
+            <element signature="e#4006#4258#1" />
+            <element signature="e#4060#4240#1" />
+            <element signature="method#initialize_search#0;class#D#0" expanded="true" />
+            <element signature="method#connected_components#0;class#D#0" expanded="true" />
+            <element signature="method#main#0;class#D#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/D2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="113" column="18" lean-forward="true" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+          <folding>
+            <element signature="class#FastWriter#0;class#D2#0" />
+            <element signature="class#FastReader#0;class#D2#0" />
+            <element signature="e#817#1016#1" />
+            <element signature="e#839#919#0" />
+            <element signature="e#942#1002#0" />
+            <element signature="e#1384#1436#0" />
+            <element signature="e#1459#1511#0" />
+            <element signature="e#1601#1667#0" />
+            <element signature="e#1700#1767#0" />
+            <element signature="method#main#0;class#D2#0" expanded="true" />
+            <element signature="class#Interval#0;class#D2#0" />
+            <element signature="method#bfs#0;class#D2#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
